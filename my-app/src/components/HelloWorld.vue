@@ -1,4 +1,4 @@
-<script setup lang="ts">
+ <script setup lang="ts">
 defineProps<{
   msg: string
 }>()
@@ -21,6 +21,7 @@ h1 {
   font-size: 2.6rem;
   position: relative;
   top: -10px;
+  color: var(--yellow);
 }
 
 h3 {

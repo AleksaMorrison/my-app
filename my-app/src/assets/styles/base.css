@@ -1,0 +1,58 @@
+:root {
+    --white: #ffffff;
+    --yellow: #fac15a ;
+    --yellow-active: #e1ad51;
+    --yellow-box-shadow: 0px 0px 3px 1px #967336;
+    --gray-light: #f0f3f5;
+    --gray-dark: #78797a;
+    --text: #181818;
+    --error: #fa715a;
+
+}
+
+body {
+    min-height: 100vh;
+    color: var(--text);
+    line-height: 1;
+    font-family: Manrope, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #CBD5E0;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px var(--yellow-box-shadow);
+}
+
+ol, ul {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p,
+a, abbr, acronym, address,img,
+small, strike, strong, sub, sup, ol, ul, li,
+fieldset, form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, embed,
+figure, footer, header,
+menu, nav, output, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
